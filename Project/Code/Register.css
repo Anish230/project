@@ -1,0 +1,276 @@
+.create-a-new {
+  position: absolute;
+  top: 4px;
+  left: 25px;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  width: 576px;
+}
+.firstname-input1 {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  top: 142px;
+  left: 25px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 324.14px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-field {
+  border: 2px solid var(--color-gainsboro);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.lastname-input {
+  position: absolute;
+  top: 142px;
+  left: 378.14px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 324.14px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-input {
+  position: absolute;
+  top: 289px;
+  left: 25px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 684.18px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.password-input {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  top: 436px;
+  left: 25px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 684.18px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.year-input {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  height: 57.98%;
+  width: 24.71%;
+  top: 42.02%;
+  right: 75.29%;
+  bottom: 0%;
+  left: 0%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.month-input {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  height: 56.3%;
+  width: 24.71%;
+  top: 43.7%;
+  right: 36.63%;
+  bottom: 0%;
+  left: 38.66%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.month-input1 {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  height: 58.82%;
+  width: 24.71%;
+  top: 41.18%;
+  right: 0%;
+  bottom: 0%;
+  left: 75.29%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.birthday {
+  position: absolute;
+  height: 27.73%;
+  width: 17.59%;
+  top: 0%;
+  left: 0.15%;
+  line-height: 24px;
+  display: inline-block;
+}
+.dob-input {
+  position: absolute;
+  top: 583px;
+  left: 25px;
+  width: 686.17px;
+  height: 119px;
+}
+.radio-with-label3 {
+  cursor: pointer;
+  position: absolute;
+  height: 16.95%;
+  width: 2.91%;
+  top: 32.77%;
+  right: 96.91%;
+  bottom: 50.28%;
+  left: 0.17%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.radio-with-label4 {
+  cursor: pointer;
+  position: absolute;
+  height: 16.95%;
+  width: 2.91%;
+  top: 32.77%;
+  right: 81.18%;
+  bottom: 50.28%;
+  left: 15.91%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.radio-with-label5 {
+  cursor: pointer;
+  position: absolute;
+  height: 16.95%;
+  width: 2.91%;
+  top: 32.77%;
+  right: 61.5%;
+  bottom: 50.28%;
+  left: 35.58%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.male {
+  position: absolute;
+  top: 32.77%;
+  left: 4.69%;
+  line-height: 24px;
+}
+.female {
+  position: absolute;
+  top: 32.77%;
+  left: 20.43%;
+  line-height: 24px;
+}
+.private {
+  position: absolute;
+  top: 32.77%;
+  left: 40.1%;
+  line-height: 24px;
+}
+.geder {
+  position: absolute;
+  top: 779px;
+  left: 25px;
+  width: 686.17px;
+  height: 119px;
+}
+.sign-up1 {
+  position: absolute;
+  top: 20px;
+  left: 90.61px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--interactive-primary-solid-enabled-foreground);
+  text-align: left;
+  -webkit-text-stroke: 1px #5c17e5;
+}
+.signin2 {
+  cursor: pointer;
+  border: 1px solid var(--interactive-link-enabled);
+  padding: 0;
+  background-color: var(--interactive-link-enabled);
+  position: absolute;
+  top: 974px;
+  left: 220.17px;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  width: 294.22px;
+  height: 78px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.createanewaccount {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  width: 736.17px;
+  height: 1055px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.register {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  height: 1372px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 108px 334px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

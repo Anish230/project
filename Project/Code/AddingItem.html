@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./AddingItem.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="adding-item">
+      <div class="headder">
+        <div class="description1">
+          <textarea class="description-child" placeholder="Description">
+          </textarea>
+          <div class="description2">Description</div>
+          <div class="description3">Description</div>
+        </div>
+        <button class="signin1" id="signin">
+          <b class="sign-up">Submit</b>
+        </button>
+        <div class="perrate">
+          <div class="permonth">
+            <div class="permonth1">Per/Month</div>
+            <input class="radio-with-label" type="radio" />
+          </div>
+          <div class="perweek">
+            <div class="perweek1">Per/week</div>
+            <input class="radio-with-label1" type="radio" />
+          </div>
+          <div class="perday">
+            <div class="perday1">Per/Day</div>
+            <input class="radio" type="radio" />
+          </div>
+        </div>
+        <div class="additem-pic">
+          <div class="addpic"></div>
+          <div class="add-pic">add pic</div>
+        </div>
+        <b class="add-item">Add Item</b>
+        <div class="headder-child"></div>
+        <input
+          class="firstname-input"
+          type="text"
+          placeholder="ItemName"
+          defaultvalue="String"
+          maxlength
+          minlength
+        />
+
+        <select class="category-list" id="category" font size="1">
+          <option  value="ele"font size="100">electronic </option>
+          <option value="veh">vehicle</option>
+          <option value="hou">house</option>
+          <option value="la">land</option>
+          <option value="fur">furniture</option>
+          <option value="oth">other</option>
+        </select>
+        <div class="price1">
+          <input
+            class="price-nego"
+            type="text"
+            defaultvalue="String"
+            placeholder="price"
+            maxlength
+            minlength
+          />
+
+          <div class="negotiable-radios">
+            <div class="neco">Negotiable</div>
+            <input class="radio-with-label2" type="radio" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var signin = document.getElementById("signin");
+      if (signin) {
+        signin.addEventListener("click", function (e) {
+          window.location.href = "./Profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>

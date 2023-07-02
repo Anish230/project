@@ -1,0 +1,315 @@
+.description-child {
+  border: 3px solid var(--color-black);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  position: absolute;
+  height: 84.62%;
+  width: 100.13%;
+  top: 17.16%;
+  right: -0.37%;
+  bottom: -1.78%;
+  left: 0.25%;
+  box-sizing: border-box;
+}
+.description2 {
+  position: absolute;
+  width: 20.77%;
+  top: 28.4%;
+  left: 0.92%;
+  line-height: 24px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.description3 {
+  position: absolute;
+  width: 20.77%;
+  top: 0%;
+  left: 0%;
+  line-height: 24px;
+  display: inline-block;
+}
+.description1 {
+  position: absolute;
+  height: 20.41%;
+  width: 95.86%;
+  top: 64.86%;
+  right: 2.13%;
+  bottom: 14.73%;
+  left: 2.01%;
+}
+.sign-up {
+  position: absolute;
+  top: 20px;
+  left: 90.61px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--interactive-primary-solid-enabled-foreground);
+  text-align: left;
+  -webkit-text-stroke: 1px #5c17e5;
+}
+.signin1 {
+  cursor: pointer;
+  border: 1px solid var(--interactive-link-enabled);
+  padding: 0;
+  background-color: var(--interactive-link-enabled);
+  position: absolute;
+  height: 9.42%;
+  width: 34.82%;
+  top: 88.29%;
+  right: 32.47%;
+  bottom: 2.29%;
+  left: 32.71%;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.permonth1 {
+  position: absolute;
+  width: 70.09%;
+  top: 0%;
+  left: 29.91%;
+  line-height: 20px;
+  display: inline-block;
+}
+.radio-with-label {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 18.69%;
+  top: -30%;
+  right: 81.31%;
+  bottom: 0%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.permonth {
+  position: absolute;
+  height: 100%;
+  width: 32.82%;
+  top: 0%;
+  right: 67.18%;
+  bottom: 0%;
+  left: 0%;
+}
+.perweek1 {
+  position: absolute;
+  width: 67.68%;
+  top: 0%;
+  left: 32.32%;
+  line-height: 20px;
+  display: inline-block;
+}
+.radio-with-label1 {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 20.2%;
+  top: -30%;
+  right: 79.8%;
+  bottom: 0%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.perweek {
+  position: absolute;
+  height: 100%;
+  width: 30.37%;
+  top: 0%;
+  right: 33.13%;
+  bottom: 0%;
+  left: 36.5%;
+}
+.perday1 {
+  position: absolute;
+  width: 63.64%;
+  top: 0%;
+  left: 36.36%;
+  line-height: 20px;
+  display: inline-block;
+}
+.radio {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 22.73%;
+  top: -30%;
+  right: 77.27%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-81xl);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  box-shadow: 0px 3px 5px rgba(46, 46, 66, 0.08);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+}
+.perday {
+  position: absolute;
+  height: 100%;
+  width: 26.99%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 73.01%;
+}
+.perrate {
+  position: absolute;
+  height: 2.42%;
+  width: 40.68%;
+  top: 54.23%;
+  right: 59.32%;
+  bottom: 43.36%;
+  left: 0%;
+  font-size: var(--font-size-mini);
+}
+.addpic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: -100%;
+  left: 0%;
+  background-color: var(--color-gainsboro);
+}
+.add-pic {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% - 49.5px);
+  line-height: 24px;
+  display: inline-block;
+  width: 100.32px;
+  height: 27.36px;
+}
+.additem-pic {
+  position: absolute;
+  height: 27.54%;
+  width: 33.73%;
+  top: 34.18%;
+  right: 16.69%;
+  bottom: 38.29%;
+  left: 49.59%;
+}
+.add-item {
+  position: absolute;
+  top: 44px;
+  left: 301px;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  width: 243.64px;
+  height: 63.01px;
+}
+.headder-child {
+  position: absolute;
+  top: 131.51px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 846px;
+  height: 1px;
+}
+.firstname-input {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  position: absolute;
+  top: 170.01px;
+  left: 10px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 324.14px;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.category-list {
+
+  position: absolute;
+  font-size: 18pt;
+  top: 170.01px;
+  left: 411px;
+  width: 293px;
+  height: 71px;
+}
+.price-nego {
+  border: none;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 75.31%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 24.69%;
+  left: 3%;
+}
+.neco {
+  position: absolute;
+  height: 100%;
+  width: 70.27%;
+  top: 0%;
+  left: 29.73%;
+  line-height: 20px;
+  display: inline-block;
+}
+.radio-with-label2 {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 18.02%;
+  top: 0%;
+  right: 81.98%;
+  bottom: 0%;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.negotiable-radios {
+  position: absolute;
+  height: 17.51%;
+  width: 34.15%;
+  top: 115.49%;
+  right: 65.85%;
+  bottom: 01%;
+  left: 0%;
+}
+.price1 {
+  position: absolute;
+  height: 13.91%;
+  width: 38.46%;
+  top: 30.7%;
+  right: 61.54%;
+  bottom: 52.39%;
+  left: 0%;
+  font-size: var(--font-size-mini);
+}
+.headder {
+  position: absolute;
+  top: 95px;
+  left: 298px;
+  background-color: #fffbfb;
+  width: 845px;
+  height: 828px;
+}
+.adding-item {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
