@@ -1,4 +1,4 @@
-.search-textfild2 {
+.search-textfild1 {
   border: none;
   font-family: var(--font-inter);
   font-size: var(--font-size-6xl);
@@ -138,7 +138,7 @@
   right: 0%;
   bottom: 85.92%;
   left: -0.07%;
-  background-image: url("./public/mostused1@3x.png");
+  background-image: url("./public/mostused@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -234,6 +234,7 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .iteamlist-child19 {
   position: absolute;
@@ -248,6 +249,7 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .iteamlist-child20 {
   position: absolute;
@@ -262,6 +264,7 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .category5 {
   position: absolute;
@@ -277,55 +280,65 @@
   bottom: 72.56%;
   left: 0.14%;
 }
-.iteamlist-child21 {
-  position: absolute;
-  height: 66.92%;
-  width: 20.67%;
-  top: 33.08%;
-  right: 7%;
-  bottom: 0%;
-  left: 72.33%;
-  border-radius: var(--br-smi);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
 .iteamlist6 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
-  top: 31.95%;
-  right: -0.14%;
-  bottom: 59.04%;
-  left: 0%;
+  top: 31.77%;
+  right: -0.28%;
+  bottom: 59.21%;
+  left: 0.14%;
 }
 .iteamlist7 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
-  top: 45.47%;
-  right: -0.35%;
-  bottom: 45.51%;
-  left: 0.21%;
+  top: 45.13%;
+  right: -0.28%;
+  bottom: 45.86%;
+  left: 0.14%;
+}
+.expand-left-icon10 {
+  position: absolute;
+  height: 28.47%;
+  width: 5.2%;
+  top: 52.31%;
+  right: 94.52%;
+  bottom: 19.23%;
+  left: 0.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .iteamlist8 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
-  top: 59%;
-  right: -0.35%;
-  bottom: 31.98%;
-  left: 0.21%;
+  top: 58.48%;
+  right: 0.14%;
+  bottom: 32.5%;
+  left: -0.28%;
+}
+.expand-left-icon11 {
+  position: absolute;
+  height: 28.47%;
+  width: 5.2%;
+  top: 52.31%;
+  right: 94.66%;
+  bottom: 19.23%;
+  left: 0.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
 }
 .iteamlist9 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
-  top: 72.53%;
-  right: -0.35%;
-  bottom: 18.45%;
-  left: 0.21%;
+  top: 71.83%;
+  right: 0%;
+  bottom: 19.15%;
+  left: -0.14%;
 }
 .homepage-afterlogin {
   position: relative;
@@ -386,7 +399,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.rectangle-div {
+.notification-box-child1 {
   position: absolute;
   height: 13.33%;
   width: 100%;
@@ -396,7 +409,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.notification-box-child1 {
+.notification-box-child2 {
   position: absolute;
   height: 13.33%;
   width: 100%;
@@ -406,7 +419,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.notification-box-child2 {
+.notification-box-child3 {
   position: absolute;
   height: 13.33%;
   width: 100%;

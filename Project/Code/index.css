@@ -1,8 +1,8 @@
-.search-bar {
+.sreach-bar {
   border: none;
   font-family: var(--font-inter);
   font-size: var(--font-size-6xl);
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   height: 58%;
   width: 48.61%;
@@ -90,7 +90,7 @@
   background-color: var(--interactive-link-enabled);
   position: absolute;
   height: 62.5%;
-  width: 8%;
+  width: 6.94%;
   top: 18.75%;
   right: 12.92%;
   bottom: 18.75%;
@@ -107,16 +107,16 @@
   font-size: var(--font-size-6xl);
   font-family: var(--font-inter);
   color: var(--interactive-primary-solid-enabled-foreground);
-  text-align: center;
+  text-align: left;
 }
 .signin {
   cursor: pointer;
   border: none;
   padding: 9px 8px;
   background-color: #d482f1;
-  position: relative;
+  position: absolute;
   height: 62.5%;
-  width: 8%;
+  width: 6.94%;
   top: 18.75%;
   right: 3.82%;
   bottom: 18.75%;
@@ -166,7 +166,7 @@
   right: 0%;
   bottom: 85.92%;
   left: -0.07%;
-  background-image: url("./public/mostused1@3x.png");
+  background-image: url("./public/mostused@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -224,7 +224,7 @@
 }
 .iteamlist-child {
   position: absolute;
-  height: 80%;
+  height: 66.92%;
   width: 20.67%;
   top: 33.08%;
   right: 7%;
@@ -239,7 +239,7 @@
 }
 .iteamlist-item {
   position: absolute;
-  height: 80%;
+  height: 66.92%;
   width: 20.67%;
   top: 33.08%;
   right: 51.32%;
@@ -250,10 +250,11 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .iteamlist-inner {
   position: absolute;
-  height: 80%;
+  height: 66.92%;
   width: 20.67%;
   top: 33.08%;
   right: 29.47%;
@@ -264,10 +265,11 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .rectangle-icon {
   position: absolute;
-  height: 80%;
+  height: 66.92%;
   width: 20.67%;
   top: 33.08%;
   right: 73.79%;
@@ -278,6 +280,7 @@
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .category {
   position: absolute;
@@ -305,20 +308,6 @@
   overflow: hidden;
   max-height: 100%;
 }
-.iteamlist-child1 {
-  position: absolute;
-  height: 80%;
-  width: 20.67%;
-  top: 33.08%;
-  right: 7%;
-  bottom: 0%;
-  left: 72.33%;
-  border-radius: var(--br-smi);
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
 .iteamlist1 {
   position: absolute;
   height: 9.02%;
@@ -345,27 +334,27 @@
   height: 9.02%;
   width: 100.14%;
   top: 45.65%;
-  right: -0.14%;
+  right: -0.97%;
   bottom: 45.33%;
-  left: 0%;
+  left: 0.83%;
 }
 .iteamlist3 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
   top: 59.17%;
-  right: -0.14%;
+  right: 0.07%;
   bottom: 31.81%;
-  left: 0%;
+  left: -0.21%;
 }
 .iteamlist4 {
   position: absolute;
   height: 9.02%;
   width: 100.14%;
   top: 72.7%;
-  right: -0.14%;
+  right: 0.07%;
   bottom: 18.28%;
-  left: 0%;
+  left: -0.21%;
 }
 .homepage-beforelogin {
   position: relative;

@@ -5,9 +5,10 @@
 }
 .login2 {
   position: relative;
+  top: 40px;
+  left: 40px;
   line-height: 36px;
   font-weight: 600;
-  text-align: center;
   display: inline-block;
   width: 670px;
 }
@@ -44,8 +45,6 @@
 }
 .input {
   border: 1px solid var(--outline-input-enabled);
-  font-family: var(--label-medium-link);
-  font-size: var(--label-large-size);
   background-color: var(--interactive-primary-solid-enabled-foreground);
   align-self: stretch;
   border-radius: var(--br-base);
@@ -69,34 +68,26 @@
   justify-content: flex-start;
 }
 .username-field {
-  align-self: stretch;
+  position: absolute;
+  top: -250px;
+  left: 0px;
+  width: 670px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.input1 {
-  border: 1px solid var(--outline-input-enabled);
-  background-color: var(--interactive-primary-solid-enabled-foreground);
-  align-self: stretch;
-  border-radius: var(--br-base);
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-xs) var(--padding-base);
-  align-items: center;
-  justify-content: center;
-}
-.entey {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.password-field {
+  position: absolute;
+  top: -142px;
+  left: 0px;
   width: 670px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 38px;
-  font-size: var(--body-small-size);
-  color: var(--text-secondary);
+  gap: var(--gap-9xs);
 }
 .placeholder-icon {
   position: relative;
@@ -115,20 +106,23 @@
   position: relative;
   font-size: var(--label-large-size);
   line-height: 24px;
-  font-weight: 500;
   font-family: var(--label-medium-link);
-  color: var(--interactive-secondary-solid-enabled-foreground);
+  color: var(--interactive-primary-solid-enabled-foreground);
   text-align: center;
 }
 .button {
   cursor: pointer;
   border: none;
   padding: var(--padding-base) var(--padding-5xl);
-  background-color: var(--interactive-secondary-solid-enabled-background);
-  flex: 1;
+  background-color: var(--interactive-link-enabled);
+  position: absolute;
+  top: 0px;
+  left: 365px;
   border-radius: var(--br-base);
+  width: 305px;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   gap: var(--gap-xs);
@@ -138,60 +132,54 @@
   position: relative;
   font-size: var(--label-large-size);
   line-height: 24px;
+  font-weight: 500;
   font-family: var(--label-medium-link);
-  color: var(--interactive-primary-solid-enabled-foreground);
+  color: var(--interactive-secondary-solid-enabled-foreground);
   text-align: center;
 }
 .button1 {
   cursor: pointer;
   border: none;
   padding: var(--padding-base) var(--padding-5xl);
-  background-color: var(--interactive-link-enabled);
-  flex: 1;
+  background-color: var(--interactive-secondary-solid-enabled-background);
+  position: absolute;
+  top: 0px;
+  left: 0px;
   border-radius: var(--br-base);
+  width: 327px;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   gap: var(--gap-xs);
 }
-.button-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  gap: var(--gap-base);
-  cursor: pointer;
-}
 .forgot-your-password {
   text-decoration: underline;
-  position: relative;
+  position: absolute;
+  top: 68px;
+  left: 255px;
+  font-size: var(--label-medium-link-size);
   line-height: 20px;
   font-weight: 500;
-  color: inherit;
-}
-.frame-parent {
-  width: 670px;
-  height: 88px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-xs);
-  font-size: var(--label-medium-link-size);
   color: var(--interactive-link-enabled);
 }
+.username-field-parent {
+  position: absolute;
+  top: 398px;
+  left: 40px;
+  width: 670px;
+  height: 88px;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--text-secondary);
+}
 .login-parent {
+  position: relative;
   border-radius: var(--br-xs);
   background-color: var(--interactive-primary-solid-enabled-foreground);
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 72px;
-  text-align: left;
+  width: 750px;
+  height: 526px;
   font-size: var(--headline-small-size);
   color: var(--interactive-secondary-solid-enabled-foreground);
   font-family: var(--label-medium-link);

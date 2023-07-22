@@ -16,71 +16,70 @@
   </head>
   <body>
     <div class="item-profile">
-      <div class="homebar1">
+      <div class="homebar2">
         <input class="search-textfild" type="search" maxlength minlength />
 
         <div class="catogory-butt">
-          <div class="catogory-seletor1"></div>
+          <div class="catogory-seletor2"></div>
           <img
-            class="siexpand-more-alt-icon1"
+            class="siexpand-more-alt-icon2"
             alt=""
-            src="./public/siexpand-more-alt1.svg"
+            src="./public/siexpand-more-alt3.svg"
           />
         </div>
         <div class="search-butt1">
           <div class="search-butt-item"></div>
           <img
-            class="sisearch-alt-icon1"
+            class="sisearch-alt-icon2"
             alt=""
             src="./public/sisearch-alt1.svg"
           />
         </div>
         <img
-          class="pink-simple-text-logo-11"
+          class="pink-simple-text-logo-12"
           alt=""
           src="./public/pink-simple-text-logo-1@2x.png"
           id="pinkSimpleTextLogo1"
         />
 
-        <img class="v-icon" alt="" src="./public/v.svg" id="v" />
+        <img class="v-icon1" alt="" src="./public/v.svg" id="v" />
       </div>
-      <div class="userprofileonitem" id="userProfileonitemContainer">
-        <img
-          class="userprofileonitem-child"
-          alt=""
-          src="./public/ellipse-47@2x.png"
-        />
+      <img
+        class="item-profile-child"
+        alt=""
+        src="./public/ellipse-47@2x.png"
+        id="ellipseImage"
+      />
 
-        <div class="user-name">
-          <p class="user-name1">User name</p>
+      <div class="user-name">
+        <p class="user-name1">User name</p>
+      </div>
+      <div class="item-profile-item"></div>
+      <div class="description">Description</div>
+      <div class="item-profile-inner"></div>
+      <textarea class="rectangle-textarea"> </textarea>
+      <img
+        class="item-profile-child1"
+        alt=""
+        src="./public/rectangle-20@2x.png"
+      />
+
+      <div class="price5">Price</div>
+      <div class="rating">
+        <div class="stars">
+          <img class="star-icon" alt="" src="./public/star.svg" />
+
+          <img class="star-icon" alt="" src="./public/star.svg" />
+
+          <img class="star-icon" alt="" src="./public/star.svg" />
+
+          <img class="star-icon" alt="" src="./public/star.svg" />
+
+          <img class="star-icon" alt="" src="./public/star.svg" />
         </div>
+        <div class="no-ratings-yet">No ratings yet</div>
       </div>
-      <div class="description-box-textfild">
-        <div class="description-box-textfild-child"></div>
-        <div class="description">Description</div>
-        <div class="description-box-textfild-item"></div>
-        <textarea class="description-box-textfild-inner"> </textarea>
-      </div>
-      <div class="iteminfo">
-        <img class="iteminfo-child" alt="" src="./public/rectangle-20@2x.png" />
-
-        <div class="price">Price</div>
-        <div class="rating">
-          <div class="stars">
-            <img class="star-icon" alt="" src="./public/star.svg" />
-
-            <img class="star-icon" alt="" src="./public/star.svg" />
-
-            <img class="star-icon" alt="" src="./public/star.svg" />
-
-            <img class="star-icon" alt="" src="./public/star.svg" />
-
-            <img class="star-icon" alt="" src="./public/star.svg" />
-          </div>
-          <div class="no-ratings-yet">No ratings yet</div>
-        </div>
-        <div class="item-name">Item name</div>
-      </div>
+      <div class="item-name5">Item name</div>
       <div class="number">Number</div>
     </div>
 
@@ -96,9 +95,9 @@
         <div class="notification-box-child"></div>
         <div class="notification-box-item"></div>
         <div class="notification-box-inner"></div>
-        <div class="rectangle-div"></div>
         <div class="notification-box-child1"></div>
         <div class="notification-box-child2"></div>
+        <div class="notification-box-child3"></div>
       </div>
     </div>
 
@@ -136,11 +135,9 @@
         });
       }
       
-      var userProfileonitemContainer = document.getElementById(
-        "userProfileonitemContainer"
-      );
-      if (userProfileonitemContainer) {
-        userProfileonitemContainer.addEventListener("click", function (e) {
+      var ellipseImage = document.getElementById("ellipseImage");
+      if (ellipseImage) {
+        ellipseImage.addEventListener("click", function (e) {
           window.location.href = "./Profile.html";
         });
       }

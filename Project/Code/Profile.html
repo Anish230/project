@@ -16,84 +16,83 @@
   </head>
   <body>
     <div class="profile">
-      <div class="user-info">
-        <img class="user-info-child" alt="" src="./public/ellipse-471@2x.png" />
+      <img class="profile-child" alt="" src="./public/ellipse-471@2x.png" />
 
-        <div class="user-name2">
-          <p class="user-name3">User name</p>
-        </div>
-        <div class="add">Add</div>
-        <div class="number1">Number</div>
+      <div class="user-name2">
+        <p class="user-name3">User name</p>
       </div>
+      <div class="add">Add</div>
+      <div class="number1">Number</div>
       <div class="ad-posts">Ad posts</div>
-      <div class="profile-child"></div>
       <div class="profile-item"></div>
-      <div class="search-itam5" id="searchItamContainer">
+      <div class="profile-inner"></div>
+      <div class="homebar3"></div>
+      <div class="iteam-block">
+        <div class="search-itam5" id="searchItam"></div>
         <img
-          class="search-itam-child3"
+          class="iteam-block-child"
           alt=""
           src="./public/rectangle-162@2x.png"
         />
 
         <div class="item-name6">item name</div>
         <div class="item-detail5">item detail</div>
-        <div class="price7">Price</div>
+        <div class="price6">Price</div>
       </div>
-      <div class="search-itam6" id="searchItamContainer1">
+      <div class="iteam-block1">
+        <div class="search-itam5" id="searchItam1"></div>
         <img
-          class="search-itam-child3"
+          class="iteam-block-child"
           alt=""
           src="./public/rectangle-162@2x.png"
         />
 
         <div class="item-name6">item name</div>
         <div class="item-detail5">item detail</div>
-        <div class="price7">Price</div>
+        <div class="price6">Price</div>
       </div>
-      <div class="search-itam7" id="searchItamContainer2">
+      <div class="iteam-block2">
+        <div class="search-itam5" id="searchItam2"></div>
         <img
-          class="search-itam-child3"
+          class="iteam-block-child"
           alt=""
           src="./public/rectangle-162@2x.png"
         />
 
         <div class="item-name6">item name</div>
         <div class="item-detail5">item detail</div>
-        <div class="price7">Price</div>
+        <div class="price6">Price</div>
       </div>
       <div class="additem" id="additemContainer">
         <div class="additem-child"></div>
         <div class="add-item1">Add Item</div>
         <img class="siadd-icon" alt="" src="./public/siadd.svg" />
       </div>
-      <div class="homebar3">
-        <input class="search-textfild1" type="search" maxlength minlength />
-
-        <catogory class="catogory-butt1" >
-          <div class="catogory-seletor3"></div>
-          <img
-            class="siexpand-more-alt-icon3"
-            alt=""
-            src="./public/siexpand-more-alt3.svg"
-          />
-        </catogory>
-        <button class="search-butt2">
-          <div class="search-butt-inner"></div>
-          <img
-            class="sisearch-alt-icon3"
-            alt=""
-            src="./public/sisearch-alt4.svg"
-          />
-        </button>
+      <div class="rectangle-div" id="rectangle1"></div>
+      <button class="catogory-butt1">
+        <div class="catogory-seletor3"></div>
         <img
-          class="pink-simple-text-logo-13"
+          class="siexpand-more-alt-icon3"
           alt=""
-          src="./public/pink-simple-text-logo-1@2x.png"
-          id="pinkSimpleTextLogo1"
+          src="./public/siexpand-more-alt3.svg"
         />
+      </button>
+      <button class="search-butt2">
+        <div class="search-butt-inner"></div>
+        <img
+          class="sisearch-alt-icon3"
+          alt=""
+          src="./public/sisearch-alt4.svg"
+        />
+      </button>
+      <img
+        class="pink-simple-text-logo-13"
+        alt=""
+        src="./public/pink-simple-text-logo-1@2x.png"
+        id="pinkSimpleTextLogo1"
+      />
 
-        <img class="v-icon2" alt="" src="./public/v1.svg" id="v" />
-      </div>
+      <img class="v-icon2" alt="" src="./public/v1.svg" id="v" />
     </div>
 
     <div
@@ -108,30 +107,30 @@
         <div class="notification-box-child"></div>
         <div class="notification-box-item"></div>
         <div class="notification-box-inner"></div>
-        <div class="rectangle-div"></div>
         <div class="notification-box-child1"></div>
         <div class="notification-box-child2"></div>
+        <div class="notification-box-child3"></div>
       </div>
     </div>
 
     <script>
-      var searchItamContainer = document.getElementById("searchItamContainer");
-      if (searchItamContainer) {
-        searchItamContainer.addEventListener("click", function (e) {
+      var searchItam = document.getElementById("searchItam");
+      if (searchItam) {
+        searchItam.addEventListener("click", function (e) {
           window.location.href = "./ItemProfile.html";
         });
       }
       
-      var searchItamContainer1 = document.getElementById("searchItamContainer1");
-      if (searchItamContainer1) {
-        searchItamContainer1.addEventListener("click", function (e) {
+      var searchItam1 = document.getElementById("searchItam1");
+      if (searchItam1) {
+        searchItam1.addEventListener("click", function (e) {
           window.location.href = "./ItemProfile.html";
         });
       }
       
-      var searchItamContainer2 = document.getElementById("searchItamContainer2");
-      if (searchItamContainer2) {
-        searchItamContainer2.addEventListener("click", function (e) {
+      var searchItam2 = document.getElementById("searchItam2");
+      if (searchItam2) {
+        searchItam2.addEventListener("click", function (e) {
           window.location.href = "./ItemProfile.html";
         });
       }
@@ -140,6 +139,13 @@
       if (additemContainer) {
         additemContainer.addEventListener("click", function (e) {
           window.location.href = "./AddingItem.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./Search.html";
         });
       }
       

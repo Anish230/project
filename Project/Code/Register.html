@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./Register.css" />
     <link
@@ -15,53 +14,60 @@
     />
   </head>
   <body>
+    <form action="connect.php" method="post">
     <div class="register">
       <div class="createanewaccount">
         <b class="create-a-new">Create a new Account</b>
-        <input class="firstname-input1" type="text" maxlength minlength />
+        <input
+          class="firstname-input1"
+          type="text"
+          placeholder="FirstName"
+          id="firstname"
+          name="firstname"
+        />
 
-        <div class="lastname-input">
-          <input class="text-field" type="text" maxlength minlength />
+        <input
+          class="lastname-input"
+          type="text"
+          placeholder="LastName"
+          id="lastname"
+          name="lastname"
+        />
+
+        <input
+          class="email-input"
+          type="email"
+          placeholder="Email"
+          name="email"
+          autocomplete="off"
+          id="email"
+        />
+
+        <input
+          class="password-input"
+          type="password"
+          placeholder="Password"
+          maxlength="{16}"
+          minlength="{4}"
+          name="password"
+          id="password"
+        />
+        <div class="birthday">Birthday</div>
+        <input class="date-field" type="date" name="birthday" id="birthday">
+        <div class="gender">Gender:<br>
+          <input  type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+          <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label> <br>
+          <input type="radio" id="Private" name="gender" value="private">
+            <label for="Private">Private</label><br>
         </div>
-        <div class="email-input">
-          <input class="text-field" type="email" maxlength minlength />
-        </div>
-        <input class="password-input" type="password" maxlength minlength />
-
-        <div class="dob-input">
-          <input class="year-input" type="date" maxlength minlength />
-
-          <input class="month-input" type="date" maxlength minlength />
-
-          <input class="month-input1" type="date" maxlength minlength />
-
-          <div class="birthday">Birthday</div>
-        </div>
-        <div class="geder">
-          <div class="birthday">Gender</div>
-          <input class="radio-with-label3" type="radio" />
-
-          <input class="radio-with-label4" type="radio" />
-
-          <input class="radio-with-label5" type="radio" />
-
-          <div class="male">Male</div>
-          <div class="female">Female</div>
-          <div class="private">Private</div>
-        </div>
-        <button class="signin2" id="signin">
+        <button type="submit" class="signin2" id="signin">
           <b class="sign-up1">Sign up</b>
         </button>
       </div>
     </div>
 
-    <script>
-      var signin = document.getElementById("signin");
-      if (signin) {
-        signin.addEventListener("click", function (e) {
-          window.location.href = "./Login2.html";
-        });
-      }
-      </script>
+    </form>
   </body>
 </html>

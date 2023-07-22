@@ -1,0 +1,288 @@
+.add-item2 {
+  position: absolute;
+  top: 1.32%;
+  left: 0%;
+  font-size: var(--font-size-31xl);
+}
+.additem-box-child {
+  position: absolute;
+  height: 0.11%;
+  width: 100.13%;
+  top: 11.29%;
+  right: -0.07%;
+  bottom: 88.6%;
+  left: -0.07%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.firstname {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 213px;
+  height: 24px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.text-field1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.firstname-input2 {
+  position: absolute;
+  height: 7.71%;
+  width: 42.6%;
+  top: 14.65%;
+  right: 57.4%;
+  bottom: 77.64%;
+  left: 0%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.additem-box-item {
+  position: absolute;
+  height: 7.71%;
+  width: 37.75%;
+  top: 14.65%;
+  right: 10.09%;
+  bottom: 77.64%;
+  left: 52.16%;
+  border-radius: var(--br-5xs);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.price-nego-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-5xs);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  width: 325px;
+  height: 70px;
+}
+.neco {
+  position: absolute;
+  top: 94px;
+  left: 68px;
+  line-height: 20px;
+}
+.price9 {
+  position: absolute;
+  top: 23px;
+  left: 16px;
+  font-size: var(--font-size-6xl);
+  line-height: 24px;
+  opacity: 0.5;
+}
+.price-nego1 {
+  position: absolute;
+  height: 14.1%;
+  width: 42.6%;
+  top: 25.66%;
+  right: 57.4%;
+  bottom: 60.24%;
+  left: 0%;
+  font-size: var(--font-size-mini);
+}
+.radio4 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  box-shadow: 0px 3px 5px rgba(46, 46, 66, 0.08);
+  border: 3px solid #5470ff;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.permonth1 {
+  position: relative;
+  line-height: 20px;
+}
+.radio-with-label1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.radio5 {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  box-shadow: 0px 3px 5px rgba(46, 46, 66, 0.08);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.per {
+  position: absolute;
+  height: 2.2%;
+  width: 39.19%;
+  top: 25.66%;
+  right: 8.65%;
+  bottom: 72.14%;
+  left: 52.16%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11px;
+  font-size: var(--font-size-mini);
+}
+.description-child {
+  position: absolute;
+  top: 29px;
+  left: 1px;
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 652px;
+  height: 143px;
+}
+.description2 {
+  position: absolute;
+  top: 48px;
+  left: 6px;
+  line-height: 24px;
+  opacity: 0.5;
+}
+.description3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 24px;
+}
+.description1 {
+  position: absolute;
+  height: 18.61%;
+  width: 85.19%;
+  top: 67.62%;
+  right: 14.81%;
+  bottom: 13.77%;
+  left: 0%;
+}
+.sign-up2 {
+  position: relative;
+  -webkit-text-stroke: 1px #5c17e5;
+}
+.signin3 {
+  position: absolute;
+  height: 8.59%;
+  width: 38.66%;
+  top: 90.2%;
+  right: 30.67%;
+  bottom: 1.21%;
+  left: 30.67%;
+  border-radius: var(--br-mini);
+  background-color: var(--interactive-link-enabled);
+  border: 1px solid var(--interactive-link-enabled);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 19.999998092651367px 0px;
+  align-items: center;
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+  cursor: pointer;
+  font-size: var(--font-size-11xl);
+  color: var(--interactive-primary-solid-enabled-foreground);
+}
+.category10 {
+  position: absolute;
+  top: 17.51%;
+  left: 56.62%;
+  line-height: 24px;
+  opacity: 0.5;
+}
+.addpic {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  right: 0%;
+  bottom: -100%;
+  left: 0%;
+  background-color: var(--color-gainsboro);
+}
+.add-pic {
+  position: absolute;
+  top: 50%;
+  left: 33.2%;
+  line-height: 24px;
+}
+.additem-pic1 {
+  position: absolute;
+  height: 22.03%;
+  width: 32.77%;
+  top: 41.41%;
+  right: 31.85%;
+  bottom: 36.56%;
+  left: 35.39%;
+}
+.siexpand-more-square-icon {
+  position: absolute;
+  height: 7.71%;
+  width: 9.17%;
+  top: 14.76%;
+  right: 9.44%;
+  bottom: 77.53%;
+  left: 81.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.radio-with-label4 {
+  position: absolute;
+  height: 2.2%;
+  width: 2.62%;
+  top: 35.9%;
+  right: 92.66%;
+  bottom: 61.89%;
+  left: 4.72%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.additem-box {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  width: 763px;
+  height: 908px;
+}
+.additem-page {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 45px 315px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

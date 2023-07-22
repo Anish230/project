@@ -16,69 +16,59 @@
   </head>
   <body>
     <div class="adding-item">
-      <div class="headder">
-        <div class="description1">
-          <textarea class="description-child" placeholder="Description">
-          </textarea>
-          <div class="description2">Description</div>
-          <div class="description3">Description</div>
-        </div>
+      <form class="headder">
+        <textarea class="headder-child" placeholder="Description"> </textarea>
         <button class="signin1" id="signin">
           <b class="sign-up">Submit</b>
         </button>
-        <div class="perrate">
-          <div class="permonth">
-            <div class="permonth1">Per/Month</div>
-            <input class="radio-with-label" type="radio" />
-          </div>
-          <div class="perweek">
-            <div class="perweek1">Per/week</div>
-            <input class="radio-with-label1" type="radio" />
-          </div>
-          <div class="perday">
-            <div class="perday1">Per/Day</div>
-            <input class="radio" type="radio" />
-          </div>
+        <input class="permonth" type="radio" />
+
+        <div class="perweek">
+          <div class="perweek1">Per/week</div>
+          <input class="radio-with-label" type="radio" />
         </div>
-        <div class="additem-pic">
-          <div class="addpic"></div>
-          <div class="add-pic">add pic</div>
+        <div class="perday">
+          <div class="perday1">Per/Day</div>
+          <input class="radio" type="radio" />
         </div>
+        <input
+          class="additem-pic"
+          type="text"
+          maxlength
+          minlength
+          id="img_item"
+          imgitem="img"
+        />
+
         <b class="add-item">Add Item</b>
-        <div class="headder-child"></div>
+        <div class="headder-item"></div>
         <input
           class="firstname-input"
           type="text"
-          placeholder="ItemName"
           defaultvalue="String"
           maxlength
           minlength
         />
 
-        <select class="category-list" id="category" font size="1">
-          <option  value="ele"font size="100">electronic </option>
+        <select class="category-list" id="category">
+          <option value="ele">electronic</option>
           <option value="veh">vehicle</option>
           <option value="hou">house</option>
           <option value="la">land</option>
           <option value="fur">furniture</option>
           <option value="oth">other</option>
         </select>
-        <div class="price1">
-          <input
-            class="price-nego"
-            type="text"
-            defaultvalue="String"
-            placeholder="price"
-            maxlength
-            minlength
-          />
+        <input
+          class="price-nego"
+          type="text"
+          defaultvalue="String"
+          placeholder="price"
+          maxlength
+          minlength
+        />
 
-          <div class="negotiable-radios">
-            <div class="neco">Negotiable</div>
-            <input class="radio-with-label2" type="radio" />
-          </div>
-        </div>
-      </div>
+        <input class="negotiable-radios" type="radio" />
+      </form>
     </div>
 
     <script>

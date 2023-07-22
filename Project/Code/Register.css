@@ -8,8 +8,6 @@
 }
 .firstname-input1 {
   border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
   background-color: transparent;
   position: absolute;
   top: 142px;
@@ -23,24 +21,9 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.text-field {
-  border: 2px solid var(--color-gainsboro);
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
-  background-color: var(--interactive-primary-solid-enabled-foreground);
-  align-self: stretch;
-  border-radius: var(--br-5xs);
-  box-sizing: border-box;
-  height: 70px;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-xs) var(--padding-base);
-  align-items: center;
-  justify-content: flex-start;
-}
 .lastname-input {
+  border: none;
+  background-color: transparent;
   position: absolute;
   top: 142px;
   left: 378.14px;
@@ -54,6 +37,8 @@
   justify-content: flex-start;
 }
 .email-input {
+  border: none;
+  background-color: transparent;
   position: absolute;
   top: 289px;
   left: 25px;
@@ -68,8 +53,6 @@
 }
 .password-input {
   border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
   background-color: transparent;
   position: absolute;
   top: 436px;
@@ -83,145 +66,35 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.year-input {
-  border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
-  background-color: transparent;
+.date-field {
   position: absolute;
-  height: 57.98%;
-  width: 24.71%;
-  top: 42.02%;
-  right: 75.29%;
-  bottom: 0%;
-  left: 0%;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+  top: 549px;
+  left: 165.17px;
+  border-radius: var(--br-5xs);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  border: 2px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 169px;
+  height: 70px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.month-input {
-  border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
-  background-color: transparent;
-  position: absolute;
-  height: 56.3%;
-  width: 24.71%;
-  top: 43.7%;
-  right: 36.63%;
-  bottom: 0%;
-  left: 38.66%;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.month-input1 {
-  border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
-  background-color: transparent;
-  position: absolute;
-  height: 58.82%;
-  width: 24.71%;
-  top: 41.18%;
-  right: 0%;
-  bottom: 0%;
-  left: 75.29%;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 .birthday {
   position: absolute;
-  height: 27.73%;
-  width: 17.59%;
-  top: 0%;
-  left: 0.15%;
+  height: 3.13%;
+  width: 16.34%;
+  top: 54.22%;
+  left: 3.55%;
   line-height: 24px;
   display: inline-block;
 }
-.dob-input {
+.gender {
   position: absolute;
-  top: 583px;
-  left: 25px;
-  width: 686.17px;
-  height: 119px;
-}
-.radio-with-label3 {
-  cursor: pointer;
-  position: absolute;
-  height: 16.95%;
-  width: 2.91%;
-  top: 32.77%;
-  right: 96.91%;
-  bottom: 50.28%;
-  left: 0.17%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.radio-with-label4 {
-  cursor: pointer;
-  position: absolute;
-  height: 16.95%;
-  width: 2.91%;
-  top: 32.77%;
-  right: 81.18%;
-  bottom: 50.28%;
-  left: 15.91%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.radio-with-label5 {
-  cursor: pointer;
-  position: absolute;
-  height: 16.95%;
-  width: 2.91%;
-  top: 32.77%;
-  right: 61.5%;
-  bottom: 50.28%;
-  left: 35.58%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.male {
-  position: absolute;
-  top: 32.77%;
-  left: 4.69%;
+  height: 3.13%;
+  width: 16.39%;
+  top: 64.08%;
+  left: 4.91%;
   line-height: 24px;
-}
-.female {
-  position: absolute;
-  top: 32.77%;
-  left: 20.43%;
-  line-height: 24px;
-}
-.private {
-  position: absolute;
-  top: 32.77%;
-  left: 40.1%;
-  line-height: 24px;
-}
-.geder {
-  position: absolute;
-  top: 779px;
-  left: 25px;
-  width: 686.17px;
-  height: 119px;
+  display: inline-block;
 }
 .sign-up1 {
   position: absolute;
@@ -261,11 +134,11 @@
   position: relative;
   background-color: var(--color-lightgray);
   width: 100%;
-  height: 1372px;
+  height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 108px 334px;
+  padding: 25% 30%;
   box-sizing: border-box;
   align-items: flex-end;
   justify-content: flex-start;

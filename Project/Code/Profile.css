@@ -1,11 +1,11 @@
-.user-info-child {
+.profile-child {
   position: absolute;
-  height: 55.8%;
-  width: 100%;
-  top: 0%;
-  right: 0%;
-  bottom: 44.2%;
-  left: 0%;
+  height: 15.04%;
+  width: 11.53%;
+  top: 17.19%;
+  right: 82.71%;
+  bottom: 67.77%;
+  left: 5.76%;
   border-radius: 50%;
   max-width: 100%;
   overflow: hidden;
@@ -17,31 +17,22 @@
 }
 .user-name2 {
   position: absolute;
-  top: 65.58%;
-  left: 22.89%;
-  font-size: var(--font-size-6xl);
+  top: 34.86%;
+  left: 8.4%;
 }
 .add {
   position: absolute;
-  top: 93.48%;
-  left: 22.89%;
+  top: 42.38%;
+  left: 8.4%;
+  font-size: var(--font-size-mini);
   opacity: 0.5;
 }
 .number1 {
   position: absolute;
-  top: 80.8%;
-  left: 22.89%;
-  opacity: 0.5;
-}
-.user-info {
-  position: absolute;
-  height: 26.95%;
-  width: 11.53%;
-  top: 17.19%;
-  right: 82.71%;
-  bottom: 55.86%;
-  left: 5.76%;
+  top: 38.96%;
+  left: 8.4%;
   font-size: var(--font-size-mini);
+  opacity: 0.5;
 }
 .ad-posts {
   position: absolute;
@@ -49,7 +40,7 @@
   left: 26.53%;
   font-size: var(--font-size-21xl);
 }
-.profile-child {
+.profile-item {
   position: absolute;
   height: 90.33%;
   width: 0.07%;
@@ -60,7 +51,7 @@
   border-right: 1px solid var(--color-black);
   box-sizing: border-box;
 }
-.profile-item {
+.profile-inner {
   position: absolute;
   height: 0.1%;
   width: 77.22%;
@@ -71,7 +62,29 @@
   border-top: 1px solid var(--color-black);
   box-sizing: border-box;
 }
-.search-itam-child3 {
+.homebar3 {
+  position: absolute;
+  height: 9.77%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 90.23%;
+  left: 0%;
+  background: linear-gradient(-90deg, #fc9b55, #74deff);
+}
+.search-itam5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-smi);
+  background-color: var(--color-powderblue-100);
+  cursor: pointer;
+}
+.iteam-block-child {
   position: absolute;
   height: 100%;
   width: 27%;
@@ -97,37 +110,13 @@
   font-size: var(--font-size-xl);
   opacity: 0.25;
 }
-.price7 {
+.price6 {
   position: absolute;
   top: 79.43%;
   left: 30.53%;
   font-size: var(--font-size-11xl);
 }
-.search-itam5 {
-  position: absolute;
-  height: 17.09%;
-  width: 72.78%;
-  top: 25.29%;
-  right: 2.92%;
-  bottom: 57.62%;
-  left: 24.31%;
-  border-radius: var(--br-smi);
-  background-color: var(--color-powderblue-100);
-  cursor: pointer;
-}
-.search-itam6 {
-  position: absolute;
-  height: 17.09%;
-  width: 72.78%;
-  top: 48.83%;
-  right: 2.92%;
-  bottom: 34.08%;
-  left: 24.31%;
-  border-radius: var(--br-smi);
-  background-color: var(--color-powderblue-100);
-  cursor: pointer;
-}
-.search-itam7 {
+.iteam-block {
   position: absolute;
   height: 17.09%;
   width: 72.78%;
@@ -135,9 +124,24 @@
   right: 2.92%;
   bottom: 10.55%;
   left: 24.31%;
-  border-radius: var(--br-smi);
-  background-color: var(--color-powderblue-100);
-  cursor: pointer;
+}
+.iteam-block1 {
+  position: absolute;
+  height: 17.09%;
+  width: 72.78%;
+  top: 26.66%;
+  right: 2.15%;
+  bottom: 56.25%;
+  left: 25.07%;
+}
+.iteam-block2 {
+  position: absolute;
+  height: 17.09%;
+  width: 72.78%;
+  top: 49.02%;
+  right: 2.15%;
+  bottom: 33.89%;
+  left: 25.07%;
 }
 .additem-child {
   position: absolute;
@@ -178,18 +182,16 @@
   cursor: pointer;
   font-size: var(--font-size-11xl);
 }
-.search-textfild1 {
-  border: none;
-  font-family: var(--font-inter);
-  font-size: var(--font-size-6xl);
-  background-color: transparent;
+.rectangle-div {
   position: absolute;
-  height: 58%;
+  height: 5.66%;
   width: 48.61%;
-  top: 20%;
+  top: 1.95%;
   right: 25.49%;
-  bottom: 22%;
+  bottom: 92.38%;
   left: 25.9%;
+  background-color: #efefef;
+  cursor: pointer;
 }
 .catogory-seletor3 {
   position: absolute;
@@ -220,11 +222,11 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  height: 58%;
+  height: 5.66%;
   width: 5.9%;
-  top: 20%;
+  top: 1.95%;
   right: 74.1%;
-  bottom: 22%;
+  bottom: 92.38%;
   left: 20%;
 }
 .search-butt-inner {
@@ -256,20 +258,20 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  height: 58%;
+  height: 5.66%;
   width: 5.9%;
-  top: 20%;
+  top: 1.95%;
   right: 19.58%;
-  bottom: 22%;
+  bottom: 92.38%;
   left: 74.51%;
 }
 .pink-simple-text-logo-13 {
   position: absolute;
-  height: 63%;
+  height: 6.15%;
   width: 9.24%;
-  top: 19%;
+  top: 1.86%;
   right: 88.75%;
-  bottom: 18%;
+  bottom: 91.99%;
   left: 2.01%;
   max-width: 100%;
   overflow: hidden;
@@ -279,25 +281,15 @@
 }
 .v-icon2 {
   position: absolute;
-  height: 46.5%;
+  height: 4.54%;
   width: 3.78%;
-  top: 27.25%;
+  top: 2.66%;
   right: 9.46%;
-  bottom: 26.25%;
+  bottom: 92.8%;
   left: 86.75%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-}
-.homebar3 {
-  position: absolute;
-  height: 9.77%;
-  width: 100%;
-  top: 0%;
-  right: 0%;
-  bottom: 90.23%;
-  left: 0%;
-  background: linear-gradient(-90deg, #fc9b55, #74deff);
 }
 .profile {
   position: relative;
@@ -358,7 +350,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.rectangle-div {
+.notification-box-child1 {
   position: absolute;
   height: 13.33%;
   width: 100%;
@@ -368,7 +360,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.notification-box-child1 {
+.notification-box-child2 {
   position: absolute;
   height: 13.33%;
   width: 100%;
@@ -378,7 +370,7 @@
   left: 0%;
   background-color: var(--color-gainsboro);
 }
-.notification-box-child2 {
+.notification-box-child3 {
   position: absolute;
   height: 13.33%;
   width: 100%;
