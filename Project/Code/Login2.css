@@ -6,11 +6,12 @@
 .login2 {
   position: relative;
   top: 40px;
-  left: 40px;
+  left: 35px;
   line-height: 36px;
   font-weight: 600;
   display: inline-block;
   width: 670px;
+  text-align: center;
 }
 .label {
   flex: 1;

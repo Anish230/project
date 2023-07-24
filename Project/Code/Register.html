@@ -24,6 +24,7 @@
           placeholder="FirstName"
           id="firstname"
           name="firstname"
+          required
         />
 
         <input
@@ -32,6 +33,7 @@
           placeholder="LastName"
           id="lastname"
           name="lastname"
+          required
         />
 
         <input
@@ -41,6 +43,7 @@
           name="email"
           autocomplete="off"
           id="email"
+          required
         />
 
         <input
@@ -51,15 +54,16 @@
           minlength="{4}"
           name="password"
           id="password"
+          required
         />
         <div class="birthday">Birthday</div>
-        <input class="date-field" type="date" name="birthday" id="birthday">
+        <input class="date-field" type="date" name="birthday" id="birthday" required>
         <div class="gender">Gender:<br>
-          <input  type="radio" id="female" name="gender" value="female">
-            <label for="female">female</label><br>
-          <input type="radio" id="male" name="gender" value="male">
+          <input  type="radio" id="female" name="gender" value="female" required  >
+            <label for="female">Female</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">Male</label> <br>
-          <input type="radio" id="Private" name="gender" value="private">
+          <input type="radio" id="Private" name="gender" value="private" required>
             <label for="Private">Private</label><br>
         </div>
         <button type="submit" class="signin2" id="signin">
