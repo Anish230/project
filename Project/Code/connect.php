@@ -28,7 +28,7 @@
                 $stmt->close();
 
                 $stmt=$conn->prepare($INSERT);
-                $stmt->bind_param("sssssi",$firstname,$lastname,$email,$gender,$password,$birthday);
+                $stmt->bind_param("ssssss",$firstname,$lastname,$email,$gender,$password,$birthday);
                 $stmt->execute();
                 echo"New record sucessfully";
 
