@@ -1,3 +1,7 @@
+.img{
+  height: 500px;
+  width: 600px;
+}
 .add-item2 {
   position: absolute;
   top: 1.32%;
@@ -77,9 +81,10 @@
   height: 70px;
 }
 .neco {
-  position: absolute;
-  top: 94px;
-  left: 68px;
+  position: relative;
+  top: 26%;
+  right: 70%;
+
   line-height: 20px;
 }
 .price9 {
@@ -155,13 +160,6 @@
   box-sizing: border-box;
   width: 652px;
   height: 143px;
-}
-.description2 {
-  position: absolute;
-  top: 48px;
-  left: 6px;
-  line-height: 24px;
-  opacity: 0.5;
 }
 .description3 {
   position: absolute;
@@ -266,7 +264,7 @@
   position: relative;
   border-radius: var(--br-xs);
   background-color: var(--color-gray-100);
-  width: 763px;
+  width: 770px;
   height: 908px;
 }
 .additem-page {
