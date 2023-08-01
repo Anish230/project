@@ -16,7 +16,7 @@
         
 
         if($count==1){
-            header("Location: ./HomePageAfterLogin.html");
+            header("Location: ./HomePageAfterLogin.html?user=$email");
             exit();
             
         }else{
@@ -34,7 +34,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./Login2.css" />
+    <link rel="stylesheet" href="./Login1.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -80,23 +80,13 @@
               </div>
           </div>
           <button class="button" id="button" type="submit" value="Login">
-            <div class="icon2">
-              <img class="placeholder-icon"  alt="" src="./public/placeholder2.svg"   />
-            </div>
             <b class="label2">Login</b>
             <div class="icon2">
-              <img  class="placeholder-icon"  alt="" src="./public/placeholder.svg" />
             </div>
           </button>
      </form>
-          <button class="button1" id="button1" >
-            <div class="icon2">
-              <img class="placeholder-icon" alt="" src="./public/placeholder1.svg"/>
-            </div>
+          <button class="button1" onclick="window.location.href='Register.html';" >
             <div class="label3">Register</div>
-            <div class="icon2">
-              <img class="placeholder-icon" alt="" src="./public/placeholder11.svg" />
-            </div>
           </button>
           <a class="forgot-your-password">Forgot your password?</a>
         </div>

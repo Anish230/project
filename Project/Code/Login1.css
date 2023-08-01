@@ -1,0 +1,204 @@
+.renthere {
+  position: relative;
+  display: inline-block;
+  width: 750px;
+}
+.login2 {
+  position: relative;
+  top: 30px;
+  left: 0px;
+  line-height: 36px;
+  font-weight: 600;
+  display: inline-block;
+  width: 670px;
+  text-align: center;
+}
+.label {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.question-circle-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.field-tip {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.input {
+  border: 1px solid var(--outline-input-enabled);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  align-self: stretch;
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+}
+.assistive-text {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: 0px 0px 0px var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.username-field {
+  position: absolute;
+  top: -250px;
+  left: 0px;
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.password-field {
+  position: absolute;
+  top: -142px;
+  left: 0px;
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.placeholder-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.icon2 {
+  flex: 1;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--label-large-size);
+  line-height: 24px;
+  font-family: var(--label-medium-link);
+  color: var(--interactive-primary-solid-enabled-foreground);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: var(--interactive-link-enabled);
+  position: absolute;
+  top: 0px;
+  left: 365px;
+  border-radius: var(--br-base);
+  width: 305px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.label3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--label-large-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--label-medium-link);
+  color: var(--interactive-secondary-solid-enabled-foreground);
+  text-align: center;
+}
+.button1 {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: var(--interactive-secondary-solid-enabled-background);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-base);
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.forgot-your-password {
+  text-decoration: underline;
+  position: absolute;
+  top: 68px;
+  left: 255px;
+  font-size: var(--label-medium-link-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--interactive-link-enabled);
+}
+.username-field-parent {
+  position: absolute;
+  top: 398px;
+  left: 40px;
+  width: 670px;
+  height: 88px;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--text-secondary);
+}
+.login-parent {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--interactive-primary-solid-enabled-foreground);
+  width: 750px;
+  height: 526px;
+  font-size: var(--headline-small-size);
+  color: var(--interactive-secondary-solid-enabled-foreground);
+  font-family: var(--label-medium-link);
+}
+.login-2 {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 62px 345px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 78px;
+  text-align: center;
+  font-size: 80px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
