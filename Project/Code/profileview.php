@@ -39,7 +39,7 @@ $result = $conn->query($sql);
 
         <tr>
 
-        <th>ID</th>
+        <th>User ID</th>
 
         <th>First Name</th>
 
@@ -69,7 +69,7 @@ $result = $conn->query($sql);
 
                     <tr>
 
-                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['userid']; ?></td>
 
                     <td><?php echo $row['firstname']; ?></td>
 
@@ -81,8 +81,8 @@ $result = $conn->query($sql);
 
                     <td><?php echo $row['birthday'];?></td>
 
-                    <td><a class="btn btn-info" href="profileupdate.php?id=<?php echo $row['id']; ?>">Edit</a>&nbsp
-                    <a class="btn btn-danger" href="profiledelete.php?id=<?php echo $row['id']; ?>">Delete</a></td>
+                    <td><a class="btn btn-info" href="profileupdate.php?userid=<?php echo $row['userid']; ?>">Edit</a>&nbsp
+                    <a class="btn btn-danger" href="profiledelete.php?userid=<?php echo $row['userid']; ?>">Delete</a></td>
 
                     </tr>                       
 

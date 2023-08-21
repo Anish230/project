@@ -5,11 +5,11 @@ $conn = new mysqli('localhost','root','','rent');
         die('Connection Failed :'.$conn->connect_error);
     }
 
-if (isset($_GET['id'])) {
+if (isset($_GET['userid'])) {
 
-    $id = $_GET['id'];
+    $userid = $_GET['userid'];
 
-    $sql = "DELETE FROM `register` WHERE `id`='$id'";
+    $sql = "DELETE FROM `register` WHERE `userid`='$userid'";
 
      $result = $conn->query($sql);
 

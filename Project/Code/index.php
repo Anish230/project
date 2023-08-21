@@ -8,7 +8,7 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <title>renthere</title>
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index1.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -47,10 +47,8 @@
         </button>
       </div>
       <div class="mostused">
-        <div class="electronic">Electronic</div>
-        <img class="expand-left-icon" alt="" src="./public/expand-left.svg" />
 
-        <img class="expand-right-icon" alt="" src="./public/expand-right.svg" />
+      
       </div>
       <div class="aboutus"></div>
       <img
@@ -75,10 +73,10 @@
         <td>
           <div class="productCard">
             <a hidden><?=$count?></a>
-          <a hidden><?=$row["id"]?></a>
-          <img src="./image/<?php echo $row['product_img']; ?>" while="100%" height="150"  ><br>
-          <a class="textcenter"><?=$row["itemname"]?></a><br><br>
-          <a class="textcenter">RS:<?=$row["price"]?></a><br><br>
+            <a hidden><?=$row["id"]?></a>
+            <img class="img" src="./image/<?php echo $row['product_img']; ?>" while="100%" height="150"  >
+            <a ><?=$row["itemname"]?></a>
+            <p class="price">RS:<?=$row["price"]?>/DAY</p>
 
           </div>
           </td>

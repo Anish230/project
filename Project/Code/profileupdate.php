@@ -9,7 +9,7 @@ $conn = new mysqli('localhost','root','','rent');
 
         $firstname = $_POST['firstname'];
 
-        $id = $_POST['id'];
+        $userid = $_POST['userid'];
 
         $lastname = $_POST['lastname'];
 
@@ -22,7 +22,7 @@ $conn = new mysqli('localhost','root','','rent');
         $birthday = $_POST['birthday'];
 
         $sql = "UPDATE `register` SET `firstname`='$firstname',`lastname`='$lastname',`email`='$email',
-        `password`='$password',`gender`='$gender',`birthday`='$birthday' WHERE `id`='$id'"; 
+        `password`='$password',`gender`='$gender',`birthday`='$birthday' WHERE `userid`='$userid'"; 
 
         $result = $conn->query($sql); 
 
@@ -39,11 +39,11 @@ $conn = new mysqli('localhost','root','','rent');
 
     } 
 
-if (isset($_GET['id'])) {
+if (isset($_GET['userid'])) {
 
-    $id = $_GET['id']; 
+    $userid = $_GET['userid']; 
 
-    $sql = "SELECT * FROM `register` WHERE `id`='$id'";
+    $sql = "SELECT * FROM `register` WHERE `userid`='$userid'";
 
     $result = $conn->query($sql); 
 
@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
 
             $birthday=$row['birthday'];
 
-            $id = $row['id'];
+            $userid = $row['userid'];
 
         } 
 
@@ -81,7 +81,7 @@ if (isset($_GET['id'])) {
 
             <input type="text" name="firstname" value="<?php echo $first_name; ?>">
 
-            <input type="hidden" name="id" value="<?php echo $id; ?>">
+            <input type="hidden" name="userid" value="<?php echo $userid; ?>">
 
             <br>
 

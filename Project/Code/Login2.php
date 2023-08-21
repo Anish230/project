@@ -16,7 +16,7 @@
         
 
         if($count==1){
-            header("Location: ./HomePageAfterLogin.html?user=$email");
+            header("Location: ./HomePageAfterLogin.php?email=$email");
             exit();
             
         }else{
